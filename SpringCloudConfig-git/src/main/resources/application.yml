@@ -1,0 +1,12 @@
+---
+
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/aneeshmunnam/spring-cloudconfig-ia-drivethru
+          search-paths:
+          - 'station*'
